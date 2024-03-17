@@ -1,0 +1,8 @@
+let fName = "MuhammadAliQamarSatti";
+let fName1 = " Muhammad Ali Qamar Satti";
+let fName2 = "Muhammad\tAli\tQamar\tSatti";
+let fName3 = "Muhammad\nAli\nQamar\nSatti";
+console.log(fName);
+console.log(fName1);
+console.log(fName2);
+console.log(fName3);
