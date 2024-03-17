@@ -1,0 +1,14 @@
+let fName:string = "Muhammad Ali Qamar Satti";
+let upperCase:string = fName.toUpperCase(); //Upper Case
+let lowerCase:string = fName.toLowerCase(); //Lower Case
+//making it in titlecase
+let array: string[] = fName.split(" ");
+let titleCase: string = (" ");
+let a;
+for (a = 0; a < array.length; a++) 
+{
+    titleCase += "" + array[a].charAt(0).toUpperCase() + array[a].slice(1).toLowerCase();
+}
+console.log(upperCase);
+console.log(lowerCase);
+console.log(titleCase);
