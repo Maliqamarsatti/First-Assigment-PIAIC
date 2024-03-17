@@ -1,0 +1,4 @@
+console.log("Adding 4+4" + "=" + (4+4));
+console.log("Subtracting 12-4" + "=" + (12-4));
+console.log("Multiplying 4*2" + "=" + (4*2));
+console.log("Dividing 40/5" + "=" + (40/5));
