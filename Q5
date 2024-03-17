@@ -1,0 +1,3 @@
+let famous_author = "Zig Ziglar once said,";
+let message = famous_author + ' "You can have everything in life you want,if you will just help other people get what they want."';
+console.log(message)
