@@ -1,0 +1,4 @@
+let firstName:string = "Muhammad Ali";
+let lastName:string = " Qamar Satti";
+let message:string = "Hello " + firstName + lastName + "\nWelcome to Typescript" + "\nLet's code together" ;
+console.log(message)
