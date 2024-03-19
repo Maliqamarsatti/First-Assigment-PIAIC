@@ -1,0 +1,45 @@
+//First List
+let friends:string[] = ['Ali','Ahamd','Saad','Hamza'];
+let message:string = "Hello! ";
+let message1:string = " I am arranging a dinner for you today. Your presence will be appreciated";
+console.log(message + friends[0] + message1);
+console.log(message + friends[1] + message1);
+console.log(message + friends[2] + message1);
+console.log(message + friends[3] + message1);
+//Changing one name
+console.log(friends[0] + " can't make it to dinner");
+// Replacing first person
+friends[0]="Bilal";
+//Printing new list
+console.log(message + friends[0] + message1);
+console.log(message + friends[1] + message1);
+console.log(message + friends[2] + message1);
+console.log(message + friends[3] + message1);
+//Letting then know new friends are being added
+console.log("Good News! I just found out a bigger table so I am adding few more friends to list");
+// Adding at beginning
+friends.unshift("Ali");
+//Adding in middle
+friends.splice(3,0, "Zeeshan");
+//Adding at end
+friends.push("Raza");
+console.log(message + friends[0] + message1);
+console.log(message + friends[1] + message1);
+console.log(message + friends[2] + message1);
+console.log(message + friends[3] + message1);
+console.log(message + friends[4] + message1);
+console.log(message + friends[5] + message1);
+console.log(message + friends[6] + message1);
+console.log('\n');
+//Printing message of refusal
+console.log("Table isn't availabe so you can't join this time!");
+console.log( friends.pop() + " Sorry mate not this time. Will see you soon!");
+console.log( friends.pop() + " Sorry mate not this time. Will see you soon!");
+console.log( friends.pop() + " Sorry mate not this time. Will see you soon!");
+console.log( friends.pop() + " Sorry mate not this time. Will see you soon!");
+console.log( friends.pop() + " Sorry mate not this time. Will see you soon!");
+console.log(friends[0] + " You are still invited");
+console.log(friends[1] + " You are still invited");
+friends.pop();
+friends.pop();
+console.log(friends);
