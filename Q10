@@ -1,0 +1,15 @@
+//First Code
+console.log("**********"); //For Display
+console.log(4+4); // Addition
+console.log("**********");
+console.log(12-4); // Subtraction
+console.log("**********");
+console.log(4*2); // Multiplication
+console.log("**********");
+console.log(40/5); //Divison
+console.log("**********");
+
+//Second Code
+//Favourite number
+let a = 5; // Initallizing variable
+console.log("Ali's Favoutite number is " + a ); //Displaying number with message on console
