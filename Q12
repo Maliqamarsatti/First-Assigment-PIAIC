@@ -1,0 +1,5 @@
+let friendName:string[] = ['Ali','Hamza','Ahmad','Bilal'];
+console.log("HEY! " + friendName[0] + " How are you");
+console.log("HEY! " + friendName[1] + " How are you");
+console.log("HEY! " + friendName[2] + " How are you");
+console.log("HEY! " + friendName[3] + " How are you");
