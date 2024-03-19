@@ -1,0 +1,5 @@
+let transportMood:string[] = ['Honda125','Mercedes','Land Cruiser'];
+let message:string = "I like to ride ";
+console.log(message + transportMood[0]);
+console.log(message + transportMood[1]);
+console.log(message + transportMood[2]);
