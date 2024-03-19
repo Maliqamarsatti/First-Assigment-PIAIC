@@ -1,0 +1,13 @@
+let friends:string[] = ['Ali','Ahamd','Saad','Hamza'];
+let message:string = "Hello! ";
+let message1:string = " I am arranging a dinner for you today. Your presence will be appreciated";
+console.log(message + friends[0] + message1);
+console.log(message + friends[1] + message1);
+console.log(message + friends[2] + message1);
+console.log(message + friends[3] + message1);
+console.log(friends[0] + " can't make it to dinner");
+friends[0]="Bilal";
+console.log(message + friends[0] + message1);
+console.log(message + friends[1] + message1);
+console.log(message + friends[2] + message1);
+console.log(message + friends[3] + message1);
