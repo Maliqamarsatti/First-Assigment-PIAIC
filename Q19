@@ -1,0 +1,13 @@
+let invitationList :string[]=['Ali','Ahmad', 'Hamza', 'Bilal'];
+let message:string = " I am arranging a dinner tomorrow. Your presence will be appreciated";
+console.log("Hey! " + invitationList[0] + message);
+console.log("Hey! " + invitationList[1] + message);
+console.log("Hey! " + invitationList[2] + message);
+console.log("Hey! " + invitationList[3] + message);
+
+//Printing number of guest invited to dinner.
+console.log("Number of people invited are " + invitationList.length);
+console.log(invitationList[0]);
+console.log(invitationList[1]);
+console.log(invitationList[2]);
+console.log(invitationList[3]);
