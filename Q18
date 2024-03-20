@@ -1,0 +1,44 @@
+// Storing the locations in a array in alphabetical order.
+let dreamPlaces: string[] =['USA','UK', 'Canada','Australia', 'Germany']
+console.log(" Original Order of Array");
+console.log(dreamPlaces);
+
+// Printing array in alphabetical order without modification the actual list.
+console.log("Printing in Alphabetical Order ");
+console.log([...dreamPlaces].sort());
+
+//Printing array in original order
+console.log(" Original Order of Array ");
+console.log(dreamPlaces);
+
+//Printing array in reverse alphabetical order without modifying original order.
+console.log(" Printing in Reverse Alphabetica Order ");
+console.log([...dreamPlaces].sort().reverse());    
+
+//Printing array in original order
+console.log(" Printing in Original Order ");
+console.log(dreamPlaces);
+
+//Reversing order and Printing it.
+console.log(" Printing in Revrese ");
+console.log(dreamPlaces.reverse());
+
+//Reversing order to original foam.
+console.log(" Revresing back to Original foam ");
+console.log(dreamPlaces.reverse());
+
+// Sorting array in alphabetical order.
+console.log(" Sorting in Alphabetical Order and Storing ");
+console.log(dreamPlaces.sort());
+
+// Printing Modified array
+console.log(" Modified to Alphabetical Order ");
+console.log(dreamPlaces);
+
+//Sorting to change array in reverse alphabetical order.
+console.log(" Printing in Reverse Alphabetical Order ");
+console.log(dreamPlaces.reverse());
+
+// Printing Modified order
+console.log(" Modified Reverse Alphabetical ");
+console.log(dreamPlaces);
