@@ -1,0 +1,29 @@
+let bike = 'YBR'; //equality
+console.log(bike == 'YBR');
+
+let cc = '250';//inequality
+console.log(cc !== '250');
+
+let name1:string="ali";//comparing strings
+let name2:string="ALI";
+console.log(name1.toLocaleLowerCase() == name2);
+
+let name3:string="ali";//comparing strings
+let name4:string="ALI";
+console.log(name1.toLocaleUpperCase() == name2);
+
+let a=5;
+let b=10;
+let c=15;
+console.log(a == b);//equal to
+console.log(a != b);//not equal to
+console.log(a < b);//less than
+console.log(a > b);// greater then
+console.log(a <= b);//less then equal to
+console.log(a >= b);//greater then equal to
+console.log(a && b && c);//AND operator
+console.log(a || b || c);//OR Operator
+
+let animalName:string[]=['1','2','CAT','DOG'];
+console.log(animalName.includes('dog'));
+console.log(!animalName.includes('CAT'));
