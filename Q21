@@ -1,0 +1,10 @@
+let employeDetail = {
+    empName: " M Ali Qamar Satti ",
+    Designation: " Developer ",
+    salary:" Rs.50,000",
+ 
+}
+
+console.log(" The Employee Name is:" + employeDetail.empName)
+console.log(" Employee Designation:" + employeDetail.Designation );
+console.log(" Employee salary:" + employeDetail.salary);
