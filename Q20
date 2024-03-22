@@ -1,0 +1,15 @@
+let citiesList: string[] =['Islamabad','Peshawar','Quetta','Lahore','Fasilabad'];
+console.log("List of Cities ")
+
+for(let city of citiesList)
+{
+    console.log(city);
+}
+
+let riversList: string[] =['Jehlum','Chanab','Ravi','Sutlaj'];
+console.log("List of Rivers ")
+
+for(let Rivers of citiesList)
+{
+    console.log(Rivers);
+}
