@@ -1,0 +1,29 @@
+let bike = 'YBR';
+console.log(bike == 'YBR');
+
+let cc = '250';
+console.log(cc == '200');
+
+let color = 'Black';
+console.log(color == 'Black');
+
+let avg = '30km';
+console.log(avg == '50km');
+
+let rim = 'Silver';
+console.log(rim== 'Silver');
+
+let mirror = 'Yes';
+console.log(mirror == 'No');
+
+let engine = 'Geniune';
+console.log(engine == 'Geniune');
+
+let seat = 'Grey';
+console.log(seat == 'Black');
+
+let helmet = 'Tinted';
+console.log(helmet == 'Tinted');
+
+let footRest = 'Done';
+console.log(footRest == 'Not Done');
