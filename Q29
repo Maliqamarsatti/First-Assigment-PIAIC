@@ -1,0 +1,30 @@
+let favouriteFruit:string[]=['Apple','Mango','Banana']
+if(favouriteFruit.includes('Apple')){
+    console.log("You really Like Apple")
+}else{
+    console.log("No you don't like Apple")
+}
+
+if(favouriteFruit.includes('Mango')){
+    console.log("You really Like Mangos")
+}else(
+    console.log("No you don't like Mango")
+)
+
+if(favouriteFruit.includes('Banana')){
+    console.log("You really Like Banana")
+}else(
+    console.log("No you don't like Bananaa")
+)
+
+if(favouriteFruit.includes('Strawberry')){
+    console.log("You really Like Srawberry")
+}else{
+    console.log("No you don't like strawberry")
+}
+
+if(favouriteFruit.includes('Guava')){
+    console.log("You really Like Guava")
+}else{
+    console.log("No you don't like Guava")
+}
