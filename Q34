@@ -1,0 +1,10 @@
+let pizzaList = ["BBQ Chicken", "Fjita", "Pepperoni","Cheese"];
+for (let i=0;i<pizzaList.length;i++) {
+    console.log(pizzaList[i]);
+}
+for (let i=0;i<pizzaList.length;i++) {
+    console.log("I like " + pizzaList[i] + " pizza.");
+}
+console.log("Pizza is my favourite fast food");
+console.log("Crown crust is best one");
+console.log("I really love pizza!");
