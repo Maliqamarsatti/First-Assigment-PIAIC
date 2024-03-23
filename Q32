@@ -1,0 +1,15 @@
+let current_users: string[] = ['Ali','Bilal','Usman','Ahmad','Hamza'];
+let new_users: string[] = ['Jawad','Hamad','ALI','Raza','BILAL'];
+
+function checkUsernameAvailability(username: string): boolean {
+    const lowerCaseCurrentUsers = current_users.map(user => user.toLowerCase());
+    return !lowerCaseCurrentUsers.includes(username.toLowerCase());
+}
+
+new_users.forEach(username => {
+    if (checkUsernameAvailability(username.toLowerCase())) {
+        console.log(username + " is available.");
+    } else {
+        console.log(username + " is already taken. Please enter a new username.");
+    }
+});
