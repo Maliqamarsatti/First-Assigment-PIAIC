@@ -1,0 +1,12 @@
+let userNames: string[] = [];
+if (Array.isArray(userNames) && userNames.length === 0) {
+    console.log("We need to find new users");
+} else {
+    for (let i = 0; i < userNames.length; i++) {
+        if (userNames[i] == "Admin") {
+            console.log("Hello " + userNames[i] + " Would you like to see the status report?");
+        } else {
+            console.log("Hello " + userNames[i] + " Thank you for logging in again");
+        }
+    }
+}
