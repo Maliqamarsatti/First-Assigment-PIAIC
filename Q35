@@ -1,0 +1,16 @@
+let animalsList = ["Dog", "Cat", "Parrot"];
+for (let animal of animalsList) {
+    console.log(animal);
+}
+for (let i = 0; i < animalsList.length; i++) {
+    if (i == 0) {
+        console.log("A " + animalsList[i] + " would be a great pet to keep in the house for company and safety.");
+    } else if (i == 1) {
+        console.log("A " + animalsList[i] + " would be a great pet to play with.");
+    } else {
+        console.log("A " + animalsList[i] + " would be a great pet to talk to and take care of.");
+    }
+}
+console.log("They all are human-friendly and can be kept in the house.");
+console.log("Mostly all of these are safe for children except a few of their breed.");
+console.log("Any of these animals would make a great pet!");
