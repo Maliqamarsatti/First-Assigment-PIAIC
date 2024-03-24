@@ -1,0 +1,6 @@
+function country_city(cityName: string, countryName:string) {
+    return  cityName+','+countryName;
+}
+console.log(country_city('Islamabad','Pakistan'));
+console.log(country_city('Fasilabad','Pakistan'));
+console.log(country_city('Multan','Pakistan'));
