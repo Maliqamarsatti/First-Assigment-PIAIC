@@ -1,0 +1,4 @@
+function make_shirt(size: string, text:string) {
+console.log("Your size is " + size + " And text to be printed is "+ text);
+}
+make_shirt('Medium','Ali Satti');
