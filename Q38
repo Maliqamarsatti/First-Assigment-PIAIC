@@ -1,0 +1,6 @@
+function describe_city(name: string, country:string='Pakistan') {
+console.log(name + " is in "+ country);
+}
+describe_city('karachi');
+describe_city('Lahore');
+describe_city('New York','US');
